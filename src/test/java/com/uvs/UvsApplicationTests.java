@@ -1,10 +1,10 @@
-package jd_friday.log_analysis;
+package com.uvs;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LogAnalysisApplicationTests {
+class UvsApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -11,18 +11,11 @@ public class Log {
     public Log() {
     }
 
-    @Valid
-    @NotBlank(message = "Cluster field cannot be empty!")
     private String cluster;
     private String sevice;
     private String version;
-    @Valid
-    @NotBlank(message = "IP field cannot be empty!")
-    @JsonProperty("IP")
     private String ip;
     private String appID;
-    @Valid
-    @NotBlank(message = "Erp field cannot be empty!")
     private String erp;
     private String logLevel;
     private String podname;
@@ -30,8 +23,6 @@ public class Log {
     private String filename;
     private String timestamp;
     private Map<String, String> tags;
-    @Valid
-    @NotBlank(message = "Content field cannot be empty!")
     private String content;
 
     public String getCluster() {
